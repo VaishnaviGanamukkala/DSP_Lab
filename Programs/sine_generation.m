@@ -8,6 +8,7 @@ w = 2*pi*f0;
 T = 1/fs;
 k = 2 * cos(w*T);
 x = [0 0 1 zeros(1,97)];
+y = zeros(1,100);
 y(1) = 0;
 y(2) = 0;
 for i = 3:100
