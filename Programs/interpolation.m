@@ -35,4 +35,4 @@ subplot(2,1,2);
 stem(d(1:l*n));
 xlabel('Time');
 ylabel('Amplitude');
-title('Decimated Output');
+title('Interpolated Output');
